@@ -1,0 +1,33 @@
+
+
+.base {
+    width: 40em; 
+    height: 2em; 
+    /* margin-left: -3em;  */
+    margin-top: -.2em;
+}
+
+.imagenTitulo{
+    margin-top: -2em;
+    width: 10em;
+    height: 6em;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2em;
+}
+.texto-encima{
+    position: absolute;
+    color: white;
+    top: .3em;
+    left: 3em;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

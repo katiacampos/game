@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+  <title>Torres de Hanoi</title>
+
+  <link rel="stylesheet" type="text/css" href="estilos.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script type="text/javascript" src="principal.js"></script>
+
+
+</head>
+
+<body style="background-color: rgb(212, 187, 118);">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Menu Superior -->
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr valign="top">
+
+      <!-- Cuerpo: principio -->
+      <td>
+        <div class="cuerpo">
+
+          <div align="center">
+
+            <h1 class="text-info">Torres de Hanoi</h1>
+
+            <form method=post name="formahanoi">
+              <input  type="text" name="mensaje" size="58" onFocus="this.blur();"> &#160; &#160;
+              <input type="text" name="califica" size="15" onFocus="this.blur();"><br><br>
+
+              <table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4bb76">
+                <tr>
+                  <td colspan="3">&#160;</td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/tope1.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/tope2.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/tope3.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td><a href="javascript:mueve('Uno',1)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Dos',2)"><img src="img/0.gif" border="0"></a></td>
+                  <td><a href="javascript:mueve('Tres',3)"><img src="img/0.gif" border="0"></a></td>
+                </tr>
+                <tr>
+                  <!-- <td colspan="3"><img src="img/base.gif" border="0"></td> -->
+                  <td colspan="3"><img src="img/suelo.png" border="0" class="base"></td>
+                </tr>
+              </table>
+
+              <div class="contenedor">
+                <img src="img/play.png" class="imagenTitulo" onclick="nvojuego();" />
+                <label for="Reiniciar"class="texto-encima"  onclick="nvojuego();" >Reiniciar</label>
+              </div>
+            </form>
+
+            <script>
+              nvojuego();
+            </script>
+
+          </div>
+        </div>
+
+        <!-- Cuerpo: fin -->
+      </td>
+    </tr>
+  </table>
+
+  <!-- Pie -->
+  <div class="pie">
+    <p><small>
+        &copy; 
+      </small></p>
+  </div>
+
+</body>
+
+</html>
